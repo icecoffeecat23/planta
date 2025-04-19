@@ -18,7 +18,7 @@ class PlantGrowthInterpolator:
         
         # Datos de ejemplo (tiempo en días, altura en cm)
         self.default_data = {
-            "Basil": load_dataB("Basil_02Jan-3Feb.csv"),
+            "Basil": load_dataB("Basil_02Jan-3Feb.csv"), #https://data.mendeley.com/datasets/vx4jy7wyvd/1/files/05bbf7c4-7bb6-445e-977e-fea44c9ab7b7
             "Tomate": np.array([[0, 1, 2, 3, 4, 5], 
                               [0, 1, 3, 6, 10, 15]]),
             "Rosa": np.array([[0, 2, 4, 6, 8, 10], 
